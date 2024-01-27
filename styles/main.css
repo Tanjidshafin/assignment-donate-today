@@ -1,0 +1,309 @@
+* {
+  margin: 0;
+
+  font-family: "Inter", sans-serif;
+  box-sizing: border-box;
+}
+.banner-img {
+  background-image: url(../img-banner.png);
+  padding: 100px 1px;
+  background-repeat: no-repeat;
+}
+
+.banner {
+  margin: 80px 307px;
+}
+.banner-title {
+  color: #fff;
+  text-align: center;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+.banner-sub-title {
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 46px;
+}
+.btn-allignment {
+  text-align: center;
+}
+
+.banner-btn {
+  border-radius: 5px;
+  background: #ff5959;
+  border: 2px solid #ff5959;
+  padding: 20px 19px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 18px;
+}
+.banner-btn:hover {
+  background-color: #fff;
+  color: #ff5959;
+  border: 2px dashed;
+  transition: all 300ms ease-in-out;
+  cursor: pointer;
+}
+/* Donate Today Section(Dnt-today) */
+.container-1 {
+  margin: 157px 305px;
+}
+.Donate-today-btn {
+  border-radius: 5px;
+  background: white;
+  border: 2px solid #ff5959;
+  padding: 40px 30px;
+  color: #ff5959;
+  font-weight: 700;
+  font-size: 18px;
+}
+.Donate-today-btn:hover {
+  background-color: #ff5959;
+  color: white;
+  border: 2px dotted;
+  transition: all 300ms ease-in-out;
+  cursor: pointer;
+}
+.Dnt-today-Title {
+  text-align: center;
+  color: #121212;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+}
+.Dnt-today-Descrip {
+  color: #707070;
+
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Poppins;
+  font-size: 14px;
+  margin: 100px 100px;
+  font-style: normal;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.dnt-today-btn-alligns {
+  display: flex;
+  justify-content: space-evenly;
+}
+.donate-today-other-option {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+.others-allign {
+  text-decoration: none;
+  color: #b3b3b3;
+}
+.dnt-today-donate-now-allign {
+  text-align: center;
+  margin-bottom: 146px;
+}
+.Donate-today-selected-btn {
+  border-radius: 5px;
+  background: #ff5959;
+  border: 2px dotted white;
+  padding: 40px 30px;
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+}
+/* Our Donate Plan section */
+
+.Dnt-plan-title {
+  color: #121212;
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.Dnt-plan-descrip {
+  color: #707070;
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Poppins;
+  font-size: 14px;
+  margin: 100px 100px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+.donate-plan-specialities {
+  display: flex;
+  justify-content: space-around;
+  gap: 24px;
+}
+.speciality-one {
+  border-radius: 5px;
+  background: rgba(79, 157, 166, 0.1);
+  padding: 40px 20px;
+}
+.speciality-two {
+  padding: 40px 20px;
+  border-radius: 5px;
+  background: rgba(255, 89, 89, 0.1);
+}
+.speciality-three {
+  padding: 40px 20px;
+  border-radius: 5px;
+  background: #fff4d6;
+}
+.spec-title {
+  color: #121212;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.spec-descrip {
+  color: #707070;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+/* 2nd last section */
+.container-2 {
+  margin: 157px 300px;
+}
+.copyable-btn {
+  border-radius: 5px;
+  background: #ff5959;
+  border: 2px solid #ff5959;
+  padding: 10px 10px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 14px;
+}
+.copyable-btn:hover {
+  background-color: #fff;
+  color: #ff5959;
+  border: 2px dashed;
+  transition: all 300ms ease-in-out;
+  cursor: pointer;
+}
+
+.info-section-allign-one {
+  display: flex;
+  justify-content: space-around;
+  gap: 90px;
+  margin-top: 110px;
+}
+.info-title {
+  margin-top: 30px;
+  color: #121212;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 1000;
+  line-height: normal;
+}
+.info-sub-title {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #707070;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+.info-descrip {
+  margin-bottom: 15px;
+  color: #707070;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+.info-section-allign-two {
+  display: flex;
+  gap: 90px;
+  justify-content: space-around;
+
+  margin-top: 40px;
+}
+/* Last section */
+.last-main-section {
+  margin: 300px 30px;
+}
+.Last-sec-title {
+  color: #121212;
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.Last-sec-descrip {
+  color: #707070;
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  margin: 100px 100px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.input-section {
+  text-align: center;
+  background: #fff4d6;
+  padding: 50px 90px;
+  margin-bottom: 0px;
+}
+.email-options {
+  border: none;
+  width: 250px;
+  height: 41px;
+  border-radius: 5px;
+}
+.the-end{
+  background-color: #121212;
+  width: 1440px;
+  height: 177px;
+  padding: 59px 629px 42px 480px;
+  text-align: center;
+
+}
+.footer-title{
+  font-size: 30px;
+  color: #FF5959;
+  font-weight: 400;
+
+
+}
+.footer-sub-title{
+  font-size: 14px;
+ color: #D9DBE1;
+ font-weight: 700;
+
+}
